@@ -23,18 +23,22 @@ public class OldLady {
 	
 	public static void spider() {
 		System.out.println("She swallowed the spider to catch the fly,");
+		idk();
 	}
 	
 	public static void bird() {
 		System.out.println("She swallowed the bird to catch the spider,");
+		spider();
 	}
 	
 	public static void cat() {
-		System.out.println("She swalled the cat to catch the bird,");
+		System.out.println("She swallowed the cat to catch the bird,");
+		bird();
 	}
 
 	public static void dog() {
 		System.out.println("She swallowed the dog to catch the cat,");
+		cat();
 	}
 	
 	public static void a_lady() {
@@ -52,7 +56,6 @@ public class OldLady {
 		System.out.println("swallowed a spider,");
 		System.out.println("That wiggled and iggled and jiggled inside her.");
 		spider();
-		idk();
 	}
 	
 	public static void v3() {
@@ -60,8 +63,6 @@ public class OldLady {
 		System.out.println("a bird,");
 		System.out.println("How absurd to swallow a bird.");
 		bird();
-		spider();
-		idk();
 	}
 	
 	public static void v4() {
@@ -69,9 +70,6 @@ public class OldLady {
 		System.out.println("a cat,");
 		System.out.println("Imagine that to swallow a cat.");
 		cat();
-		bird();
-		spider();
-		idk();
 	}
 	
 	public static void v5() {
@@ -79,10 +77,6 @@ public class OldLady {
 		System.out.println("a dog,");
 		System.out.println("What a hog to swallow a dog.");
 		dog();
-		cat();
-		bird();
-		spider();
-		idk();
 	}
 	
 	public static void v6() {
