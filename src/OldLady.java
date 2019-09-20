@@ -1,4 +1,20 @@
-
+/***
+ * Grading Comments:
+ *  Very good work.   Clean, and you definitely 
+ *  get the concept of reducing typing by
+ *  nesting methods.
+ *  Compiles/runs: 15/15
+ *  Desired output: 3/6 - You have some lines
+ *    that don't print out quite right. 
+ *    Calling a_lady() followed by "who swallowed..."
+ *    in v1() duplicates "who swallowed".  There are
+ *    a couple of other bugs here as well.
+ *  Consistency:  2/2  Clean, neat, good conventions.
+ *  Efficiency: 2/2   You tried to enhance
+ *   this by even doing more and doing the 'a_lady()'
+ *   method, but you ended up with output that 
+ *   wasn't quite right.   Good effort though.
+ */
 public class OldLady {
 
 	public static void main(String[] args) {
