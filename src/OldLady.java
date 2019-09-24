@@ -63,13 +63,13 @@ public class OldLady {
 	
 	public static void v1() {
 		a_lady();
-		System.out.println("who swallowed a fly.");
+		System.out.println("a fly.");
 		idk();
 	}
 	
 	public static void v2() {
 		a_lady();
-		System.out.println("swallowed a spider,");
+		System.out.println("a spider,");
 		System.out.println("That wiggled and iggled and jiggled inside her.");
 		spider();
 	}
